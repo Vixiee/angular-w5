@@ -1,0 +1,7 @@
+<div class="container" *ngIf="facts">
+  <a routerLink="" class="btn btn-primary">Random Kitty Fact</a>
+  <p class="texty">Multiple Random Kitty Facts</p>
+  <div class="card" *ngFor="let fact of facts">
+    <p class="card-body">{{ fact }}</p>
+  </div>
+</div>
